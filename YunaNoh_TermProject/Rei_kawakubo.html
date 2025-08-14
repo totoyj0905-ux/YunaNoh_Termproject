@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <!-- CDN -->
+    <script src="https://kit.fontawesome.com/0b9460e4ff.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js" defer></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="css/main.css">
+        <!-- Custom PlugIn -->
+    <!-- jQuery + jQuery Validate -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+
+    <!-- GLightbox (Lightbox gallery) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+
+    <!-- MixItUp (Filtering/Sorting) -->
+    <script src="https://cdn.jsdelivr.net/npm/mixitup@3/dist/mixitup.min.js"></script>
+
+    <!-- MicroModal (Accessible modal) -->
+    <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
+
+    <!-- Leaflet (Interactive map) -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+    <title>Rei kawakubo</title>
+</head>
+<body>
+    <section class="sec06">
+        <div class="xmark">
+            <a href="index.html"><i class="fa-solid fa-xmark"></i></a>
+        </div>
+        <div class="box_container">
+            <div class="left_box">
+                <div class="mainbox first_box">
+                    <div class="illustbox1" data-aos="fade-right" data-aos-duration="1000">
+                        <img src="img/illust01.png" alt="sectionillust1">
+                    </div>
+                    <div class="textbox1" data-aos="fade-right" data-aos-duration="1500">
+                        <h5>
+                            Rei kawakubo <br>川久保玲
+                        </h5>
+                    </div>
+                </div>
+                <div class="mainbox sec_box">
+                    <div class="textbox2" data-aos="fade-right" data-aos-duration="1000">
+                        <p><b>Kawakubo Rei</b> majored in the Philosophy Department and Aesthetic Art History of <br> the Literature Faculty at <b>Keio University in Japan.</b> <br>
+                            After she graduate, she joined the Japanese textile company for marketing, but <br> retired after three years and became a <b>independent freelance stylist.</b> <br>
+                            She couldn't find clothes that fit the image she wanted while she was working as a <br> photographer. That lead her to make clothes on her own. <br>
+                            She <b>founded Comme des Garçons(1973)</b>, a luxury women's ready-to-wear brand and <br> held it's <b>first show in Tokyo(1975)</b>.
+                            </p>
+                    </div>
+                    <div class="illustbox2" data-aos="fade-right" data-aos-duration="1500">
+                        <img src="img/illust02.png" alt="sectionillust2">
+                    </div>
+                </div>
+            </div>
+            <div class="right_box">
+                <div class="mainbox thir_box">
+                    <div class="toptext" data-aos="fade-left" data-aos-duration="1500">
+                        <h5>anti-fashionable <br>
+                        nonconstructive</h5>
+                        <h6>designer</h6>
+                    </div>
+                    <div class="bottomtext" data-aos="fade-left" data-aos-duration="2000">
+                        <p>Conducts anti-fashionable and nonconstructive clothes</p>
+                    </div>
+                </div>
+                <div class="mainbox four_box">
+                    <div class="lefttext" data-aos="fade-left" data-aos-duration="1500">
+                        <p>ADIDAS <br>
+                        BUNNEY <br>
+                        BIBLIOTHECA <br>
+                        DOUBLET <br></p>
+                    </div>
+                    <div class="righttext" data-aos="fade-left" data-aos-duration="2000">
+                        <p>Index <br>
+                        of comme des garcons <br>
+                        with other brands for collaboration <br>
+                        since 1973 <br></p>
+                    </div>
+                    <div class="illustbox3" data-aos="fade-left" data-aos-duration="1500">
+                    <img src="img/illust03.png" alt="sectionillust3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Interactive Map -->
+    <section id="map" aria-labelledby="map-heading">
+        <div class="inner">
+            <h2 id="map-heading">Flagship Store (Tokyo)</h2>
+            <div class="map-box">
+            <div id="leafletMap" role="application" aria-label="Map showing flagship store location"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- === Interactive Map end === -->
+
+</body>
+</html>
